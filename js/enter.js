@@ -1,0 +1,1 @@
+document.getElementById("main").hidden=!0;var vid=document.getElementById("video");document.addEventListener("click",(function(){document.getElementById("enter").hidden=!0,document.getElementById("main").hidden=!1,void 0===window.orientation&&vid.play()})),vid.onended=function(){vid.play()};
